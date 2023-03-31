@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Marker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="container vh-100">
+
+        <div class="row pt-3 gy-3 m-auto justify-content-center">
+            <div class="col-12">
+                <h1 class="text-dark fw-bolder">Book Marker</h1>
+            </div>
+            
+            <hr>
+            
+            <div class="col-12">
+                <div class="row text-center fw-bolder bg-light gy-4">
+                    <h2 class="fw-bolder">Bookmark your favorite sites</h2>
+                    <div class="">
+                        <label for="">Site Name</label>
+                        <input type="text" name="" id="bookMarkName" class="form-control" placeholder="Bookmark Name" >
+                    </div>
+                    <div>
+                        <label for="">Site URL</label>
+                        <input type="text" name="" id="websSiteUrl" class="form-control" placeholder="Website URL">
+                    </div>
+                    <div class="" id="addEdit">
+                        <button class="btn btn-primary" onclick="addBookMarks()" >Submit</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 m-auto py-5">
+                <table class="table  text-center">
+                    <thead>
+                        <tr>
+                            <th>Index</th>
+                            <th>BookMark name</th>
+                            <th>site url</th>
+                            <th>Visit site</th>
+                            <th>Update</th>
+                            <th>Delete</th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody id="tableData">
+                        
+                        
+
+
+
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+        
+        
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
